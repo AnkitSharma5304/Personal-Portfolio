@@ -7,26 +7,30 @@ const Education = () => {
 
   const education = [
     {
-      institution: "Vasavi College of Engineering",
-      degree: "Bachelor of Engineering",
-      field: "Electronics and Communication Engineering (ECE)",
-      period: "2019-2023"
+      institution: "Indian Institute of Information Technology Bhagalpur",
+      degree: "Bachelor of Technoology",
+      field: "Mathematics and Computing (MnC)",
+      period: "2023-2027"
     },
     {
-      institution: "Sri Chaitanya Junior College",
+      institution: "Holy Wisdom School",
       degree: "Intermediate",
-      field: "MPC",
-      period: "2017-2019"
+      field: "MPC (93.6%)",
+      period: "2021-2022"
+    },
+    {
+      institution: "Udayan International School",
+      degree: "High School",
+      field: "(92.8%)",
+      period: "2019-2020"
     }
   ];
 
   const achievements = [
-    "Winner – IWD Hackathon by Google Developer Group Hyderabad",
-    "4* Coder on CodeChef, solved 600+ DSA problems across platforms like LeetCode, CodeChef, and CSES",
-    "CodeChef Student Chapter & GDG CP Lead – Led competitive programming events and workshops",
-    "National Handball Goalkeeper – Kendriya Vidyalaya",
-    "2019 National & Indian National Mathematics Olympiad (INMO) Regionalist",
-    "Participated in Hackathon conducted by VIIT ACM Chapter"
+    "Completed the six-week Summer Analytics 2024 course by the Consulting and Analytics Club, IIT Guwahati",
+    "3* Coder on CodeChef, solved 500+ DSA problems across platforms like LeetCode, CodeChef, and CSES",
+    "Secured Global Rank 2601 in Leetcode Biweekly Contest 165, placing in the top 20% of over 13,000 participants.",
+    "Coding Club Member PyC IIIT Bhagalpur"
   ];
 
   const containerVariants = {

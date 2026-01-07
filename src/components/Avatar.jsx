@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 // --- Style-derived Constants ---
 // Head
-const HEAD_WIDTH = 100;
+const HEAD_WIDTH = 120;
 const HEAD_HEIGHT = 100;
 const HEAD_TOP_OFFSET = 50; // From container top to head top
 // Eye Sockets (relative to Head)
