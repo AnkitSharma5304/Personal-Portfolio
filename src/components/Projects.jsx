@@ -6,6 +6,19 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Easy Hire",
+      description:"EasyHire is a comprehensive job portal built with the MERN stack MongoDB, Express.js, React.js, Node.js It empowers both job seekers and recruiters with an intuitive and robust platform to interact, apply, post jobs, and even receive AI-based Job recommendations",
+      tech: ["React Native", "Express.js", "Node.js", "MongoDb", "Python"],
+      image: "",
+      liveLink: "https://easy-hire-two.vercel.app/",
+      highlights: [
+        "JWT-based login/signup for candidates and recruiters, with secure password hashing (Bcrypt).",
+        "Dynamic job feed with filtering and search capabilities.",
+        "Integrated messaging system for direct communication between recruiters and candidates",
+        "Supports hundreds of daily active users"
+      ]
+    },
+    {
       title: "Chat Application",
       description: " Engineered a full-stack, real-time messaging application handling concurrent users with message latency under 100ms. Leveraged WebSocket for instant communication, Node.js and Express.js for server-side logic, and MongoDB for efficient data storage. Implemented JWT-based authentication to ensure secure user sessions. The frontend, built with React and Tailwind CSS, offers a responsive and intuitive user interface, enhancing user engagement across devices.",
       tech: ["React Native", "Express.js", "Node.js", "MongoDb", "Socket.IO"],
@@ -18,19 +31,6 @@ const Projects = () => {
         "Supports hundreds of daily active users"
       ]
     },
-    // {
-    //   title: "Student Attendance Tracking System",
-    //   description: "An innovative serverless attendance solution leveraging AWS Lambda and Python to deliver cost-effective, real-time attendance tracking for educational institutions. The system employs sophisticated HTML parsing techniques with BeautifulSoup to extract attendance data from various sources, processes it through a highly optimized pipeline, and delivers accurate, instantaneous results to thousands of users daily without incurring operational costs, making it an ideal solution for resource-constrained educational environments.",
-    //   tech: ["AWS Lambda", "Python", "WebSocket", "DynamoDB", "BeautifulSoup"],
-    //   image: "/images/attendance-preview.png",
-    //   liveLink: "https://github.com/sri-ganeshk/Attendance_tracker",
-    //   highlights: [
-    //     "Handles ~3,000 unique daily users",
-    //     "10,000+ requests/day at zero cost",
-    //     "Avg response time of 1.5-2 seconds",
-    //     "Real-time HTML parsing"
-    //   ]
-    // },
     {
       title: "ResumeAI – AI Powered Resume Analyzer",
       description: " Built an AI-powered resume analyzer that scores and optimizes resumes against job descriptions to improve ATS compatibility. Developed a scoring algorithm to evaluate resume effectiveness, providing actionable feedback for enhancement. The web application, built with React and Tailwind CSS, offers an intuitive interface for users to upload resumes and receive instant analysis, significantly improving their chances of passing ATS screenings.",
